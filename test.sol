@@ -30,5 +30,4 @@ pragma solidity ^0.8.10;
 // }
 
 
-
-// bool public isActive=false;
+// int public num=18;
