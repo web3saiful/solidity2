@@ -1,5 +1,5 @@
 {
-	"id": "256927cad1c9fe910a870d5084376c9c",
+	"id": "cd5ca5d62821b90f5783e1f1dd44456e",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.30",
 	"solcLongVersion": "0.8.30+commit.73712a01",
@@ -7,7 +7,7 @@
 		"language": "Solidity",
 		"sources": {
 			"test.sol": {
-				"content": "// SPDX-License-Identifier:MIT\r\npragma solidity ^0.8.10;\r\n\r\n\r\n\r\n// Introduction to Solidity\r\n// contract MyFirstContract{\r\n//     uint256 public constant myInt=123;\r\n//     address public immutable myAddress;\r\n// }\r\n\r\n\r\n\r\n\r\n\r\n// // stroring values in Contract\r\n// contract First{\r\n\r\n// int public num=18;\r\n\r\n// string public greetng=\"welcome\";\r\n\r\n// bool public isActive=false;\r\n\r\n// address public myAddress=0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;\r\n\r\n// function getNumber()public view returns(int){\r\n//     return num;\r\n//    }\r\n// }\r\n\r\n\r\n// string public greetng=\"welcome\";"
+				"content": "// SPDX-License-Identifier:MIT\r\npragma solidity ^0.8.10;\r\n\r\n\r\n\r\n// Introduction to Solidity\r\n// contract MyFirstContract{\r\n//     uint256 public constant myInt=123;\r\n//     address public immutable myAddress;\r\n// }\r\n\r\n\r\n\r\n\r\n\r\n// // stroring values in Contract\r\n// contract First{\r\n\r\n// int public num=18;\r\n\r\n// string public greetng=\"welcome\";\r\n\r\n// bool public isActive=false;\r\n\r\n// address public myAddress=0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;\r\n\r\n// function getNumber()public view returns(int){\r\n//     return num;\r\n//    }\r\n// }\r\n\r\n\r\n// int public num=18;\r\n\r\n\r\n// address public myAddress=0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;"
 			}
 		},
 		"settings": {
@@ -60,7 +60,7 @@
 							"src": "32:24:0"
 						}
 					],
-					"src": "32:548:0"
+					"src": "32:611:0"
 				},
 				"id": 0
 			}
