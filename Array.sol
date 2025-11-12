@@ -14,11 +14,30 @@ contract Array{
         return dynamicScores[index];
     }
     
-    function getNumberOfScores()public view returns  (uint){
-        return dynamicScores.length;
-    }
 
-    function removeLastScore()public {
-        dynamicScores.pop();
-    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    // function getNumberOfScores()public view returns  (uint){
+    //     return dynamicScores.length;
+    // }
+
+    // function removeLastScore()public {
+    //     dynamicScores.pop();
+    // }
 }
