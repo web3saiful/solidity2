@@ -10,34 +10,18 @@ contract Array{
     function addScores(uint score)public {
         dynamicScores.push(score);  // add a new number to the end
     }
+
     function getScore(uint index) public view returns (uint){
         return dynamicScores[index];
     }
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    function getNumberOfScores()public view returns  (uint){
+        return dynamicScores.length;
+    }
 
     
-    // function getNumberOfScores()public view returns  (uint){
-    //     return dynamicScores.length;
-    // }
+    function removeLastScore()public {
+        dynamicScores.pop();
+    }
 
-    // function removeLastScore()public {
-    //     dynamicScores.pop();
-    // }
 }

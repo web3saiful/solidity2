@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.10;
+
+contract Mapping {
+mapping (address=>uint)public balances;
+// nested mapping
+mapping(address=>mapping (address=>uint))public allowances;
+function updateBalance(uint newBalance)public {
+    balances[msg.sender]=newBalance;
+  }
+}

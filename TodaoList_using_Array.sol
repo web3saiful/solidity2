@@ -24,7 +24,4 @@ contract TodoList{
         Task storage task=tasks[taskIndex];  
         return (task.content,task.completed);
        } 
-
-
-
 }
