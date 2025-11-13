@@ -8,4 +8,8 @@ mapping(address=>mapping (address=>uint))public allowances;
 function updateBalance(uint newBalance)public {
     balances[msg.sender]=newBalance;
   }
+
+  function getBalance(address user)public view returns(uint){
+    return balances[user];
+  }
 }
