@@ -6,13 +6,15 @@ contract StudentRegistry{
 
     mapping (uint=>uint) public StudentScore;
 
-    store a student's StudentScore
+    // store a student's StudentScore
 
-    function StudentScore(uint studentId, uint score)public {
+    function SetScore(uint studentId, uint score)public {
         StudentScore[studentId]=score;
 
     }
 
 
-    function getScor(uint studentId)
+    function getScor(uint studentId)public view returns(uint){
+        return StudentScore[studentId];
+    }
 }
