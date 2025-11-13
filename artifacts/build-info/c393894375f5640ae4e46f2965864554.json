@@ -1,5 +1,5 @@
 {
-	"id": "721797b9955760095e6bb5a10ab2a98f",
+	"id": "c393894375f5640ae4e46f2965864554",
 	"_format": "hh-sol-build-info-1",
 	"solcVersion": "0.8.30",
 	"solcLongVersion": "0.8.30+commit.73712a01",
@@ -7,7 +7,7 @@
 		"language": "Solidity",
 		"sources": {
 			"comparison_operatous.sol": {
-				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.10;\r\n"
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.10;\r\n\r\n"
 			}
 		},
 		"settings": {
@@ -60,7 +60,7 @@
 							"src": "33:24:0"
 						}
 					],
-					"src": "33:26:0"
+					"src": "33:28:0"
 				},
 				"id": 0
 			}

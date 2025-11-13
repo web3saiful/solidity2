@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Student_Registry_Mapping_Project.sol": "StudentRegi"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Student_Registry_Mapping_Project.sol": {
+			"keccak256": "0xce42b993a3995b4f25e5fe6672ec65d49b79323df4d179f1571eb3cf705c4eaf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d26c3f68e567976b6919072af802a260b7b23720f92e48127efb33866b5370a3",
+				"dweb:/ipfs/QmQpvri33N1UjVLG9jWf1GFS1k67uFDQRHZqD2iHZ8Kg92"
+			]
+		}
+	},
+	"version": 1
+}

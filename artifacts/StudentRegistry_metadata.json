@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "StudentScore",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Student_Registry_Mapping_Project.sol": "StudentRegistry"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Student_Registry_Mapping_Project.sol": {
+			"keccak256": "0xe200953d60a4465c8cad250de90bc4ae472a44ec5d766de6318be4f350a4950b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://de25a53664bf436871adeb64d2d44ec29837f37d66bd74d86f9b7ee79270bb08",
+				"dweb:/ipfs/QmbRoACKGdNQ7Ji6yiWekHQCazfFhfyncFB56r2vM6JAdX"
+			]
+		}
+	},
+	"version": 1
+}

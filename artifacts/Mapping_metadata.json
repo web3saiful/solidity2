@@ -51,6 +51,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "newBalance",
 						"type": "uint256"
@@ -90,11 +109,11 @@
 	},
 	"sources": {
 		"Mapping.sol": {
-			"keccak256": "0x7412b4caace32f9c1fd52a31e86ed7aa1cfa7fb3c9c68ecf112fc2cda4626bac",
+			"keccak256": "0xdec3c25f9b862055b47c5e78b9e3e4b5ef6111fba272f9f2bdff453bdd481239",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://73f95538ceca8ce81a11391d8ac3c76a5d30d12dcd2700360c16a6f0c393df37",
-				"dweb:/ipfs/QmQ7WhtJKixSX7cr43swHvGTXvbrMiyt96wD7SVQeeJjjc"
+				"bzz-raw://12c818238ea97a12325d3f3b2890c99ae55bf98dc631efd1722ba800aad4cc3e",
+				"dweb:/ipfs/QmRZCEMQ7H3zUrduvHbdhrdhdnqppX8pQ31hrEDqidGLS9"
 			]
 		}
 	},
