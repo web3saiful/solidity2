@@ -17,4 +17,11 @@ contract StudentRegistry{
     function getScor(uint studentId)public view returns(uint){
         return StudentScore[studentId];
     }
+
+
+
+    function hasPassed(uint studentId)public view returns(bool){
+        return StudentScore[studentId] >=60;
+    }
+
 }
