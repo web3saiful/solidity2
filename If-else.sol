@@ -1,0 +1,15 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.10;
+
+contract operator{
+    uint public a=5;
+    uint public b=4;
+
+
+    function get() public view returns (uint){
+        if(a==5){
+            return 1;
+
+        }
+    }
+}
