@@ -7,7 +7,7 @@ contract operator{
 
 
     function get() public view returns (uint){
-        if(a==5){
+        if(a==5 && b==4){
             return 1;
 
         }
