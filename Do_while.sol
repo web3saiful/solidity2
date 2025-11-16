@@ -10,4 +10,4 @@ contract operator{
             a+=1;
         }while(a<b);
     }
-}
+} 
