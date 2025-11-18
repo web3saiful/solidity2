@@ -11,6 +11,6 @@ contract error{
 
     function call() public {
         count++;
-        require(msg.sender==owner);
+        require(msg.sender==owner,'Caller is not owner' );
     }
 }
