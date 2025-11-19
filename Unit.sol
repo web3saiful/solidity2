@@ -3,7 +3,7 @@ pragma solidity ^0.8.10;
 
 contract uints{
     modifier amount{
-        require(msg.value>1 ether);
+        require(block.timestamp<(1763575503 +1 hours));
         _;
     }
 
