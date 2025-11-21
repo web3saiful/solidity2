@@ -25,15 +25,50 @@ contract mappingDemo{
 
 
 
-mapping (address=>mapping(address=>uint256))public checkTokenBalanc;
+// mapping (address=>mapping(address=>uint256))public checkTokenBalanc;
 
-mapping (address=>mapping (uint256=>mapping (uint256=>uint256))) public checkScore;
+// mapping (address=>mapping (uint256=>mapping (uint256=>uint256))) public checkScore;
 
 
 
-function settValue(uint256 gameId,uint level,uint256 score)public {
-    checkScore[msg.sender][gameId][level]=score;
+// function settValue(uint256 gameId,uint level,uint256 score)public {
+//     checkScore[msg.sender][gameId][level]=score;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+mapping (address=>bool)public exists;
+mapping(address=>uint256)public data;
+
+
+function addData(uint256 value)public {
+    require(!exists[msg.sender],"Already exists");
+  
+
+    data[msg.sender]=value;
+    exists[msg.sender]=true;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
