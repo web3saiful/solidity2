@@ -46,18 +46,36 @@ contract DataLocation{
 
 
 
-function fun1(uint256[] storage arr)internal {
-    arr[0]=999;
-}
-
-function fun2(uint256[] memory arr)internal  pure{
-    arr[0]=999;
-}
 
 
 
 
 
+// function fun1(uint256[] storage arr)internal {
+//     arr[0]=999;
+// }
+
+// function fun2(uint256[] memory arr)internal  pure{
+//     arr[0]=999;
+// }
+
+
+
+
+
+
+
+// example of view
+uint256 storedValue = 10;
+function getStoredValue() view returns (uint256) {
+     return storedValue; 
+     } 
+
+
+
+    //  function add(uint256 a, uint256 b) pure returns (uint256) {
+    //      return a + b;
+    //       }
 
 
 
