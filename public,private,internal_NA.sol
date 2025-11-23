@@ -42,5 +42,13 @@ contract Demo2{
     constructor(address _target){
         target=VisibilityExample(_target);
     }
+    
+    function exFun()public view returns(uint256,uint256,uint256){
+        uint256 publicResult=target.publicFun();
+        uint256 externalResult=target.externalFun();
+        uint256 publicVar=target.publicVar();
+
+        return (publicResult,externalResult,publicVar);
+    } 
 
 }
