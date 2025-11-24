@@ -23,6 +23,29 @@ function deposit()external payable {
 
     emit Deposit(msg.sender,msg.value);
   }
+   
+   function withdraw(uint256 amount)public {
+    require(balances[msg.sender]>=amount,"Insufficient balance");
+
+    balances[msg.sender]-=amount;
+    totalDeposits-=amount;
+
+    payable (msg.sender).transfer(amount);
+
+    emit Withdraw(msg.sender,amount);
+   }
+    function getBalance(address account)public view returns (uint256){
+        return balances[account];
+    }
+
+}
 
 
+
+contract PremiumBankAccount is BankAccount{
+    uint256 internal minimumBalance=1000 wei;
+
+    function getPremiumStatus(address account)public view returns(bool){
+        return getBalance(account)>=minimumBalance;
+    }
 }
