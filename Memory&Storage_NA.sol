@@ -66,10 +66,14 @@ contract DataLocation{
 
 
 // example of view
-uint256 storedValue = 10;
-function getStoredValue() view returns (uint256) {
-     return storedValue; 
-     } 
+// uint256 storedValue = 10;
+// function getStoredValue() view returns (uint256) {
+//      return storedValue; 
+//      } 
+
+
+
+
 
 
 
