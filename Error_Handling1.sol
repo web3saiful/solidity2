@@ -19,7 +19,7 @@ contract ErrorHandling{
         balances[to]+=amount;
      }
 
-      // revert()- emergency stop button
+      // revert()- emergency stop button/over hole
 
       uint public maxTransactionLimit=100;
 
