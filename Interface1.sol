@@ -29,6 +29,10 @@ contract MyToken is IToken{
         return true;
     }
 
+    function mint(address to,uint256 amount)external override {
+        require(msg.sender==owner,"Only owner can mint");
+        balances[to]+=amount;
 
+    }
 }
 
