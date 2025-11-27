@@ -16,5 +16,8 @@ contract memoryVsStorage{
         Person storage personToChange=people[_index];//directly referencing from storage >********************************
         personToChange.name=_name;// directly changing to storage
     }
-
+    function readPersonMemory(uint256 _index)public view returns(string memory,uint256){
+    Person memory personToRead=people[_index]; //reference in memory
+    return (personToRead.name,personToRead.age);
+    }
 }
