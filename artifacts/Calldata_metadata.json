@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_data",
+						"type": "uint256[]"
+					}
+				],
+				"name": "processArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"callData.sol": "Calldata"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"callData.sol": {
+			"keccak256": "0x1293bd655ed4ff08bbde2a27818f98db7a0d5b49b35cb91bb8a64bf1e2358f2f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://da587317b0742d80a29ca7b7fad87059cd5158a07234a81a5a8eef2424cfab13",
+				"dweb:/ipfs/QmaxNotiWZwhoiGzhAP5SYUWfMFbTzWwK1Cze4WYF6mi2e"
+			]
+		}
+	},
+	"version": 1
+}
