@@ -14,4 +14,7 @@ contract StructExample{
         person1=Person(_name,_age,_walletAddress,true);
     }
 
+    function getPerson()public view returns(string memory,uint,address,bool){
+        return (person1.name,person1.age,person1.walletAddress,person1.isActive);
+    }
 }
