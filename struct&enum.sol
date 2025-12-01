@@ -1,0 +1,39 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.10;
+
+
+struct Product{
+    uint256 id;
+    string name;
+    uint256 price;
+    address seller;
+    bool isAvailable;
+}
+
+contract MarketPlace{
+    Product[] public products;
+    mapping (uint256=>Product)public productById;
+
+    function addProduct(string memory name,uint256 price)public returns(uint256){
+        uint256 productId=products.length;
+
+        Product memory newProduct=Product({
+            id:productId,
+            name:name,
+            price:price,
+            seller:msg.sender,
+            isAvailable:true
+        });
+        products.push(newProduct);
+        productById[productId]=newProduct;
+        
+        return productId;
+    }
+    function updateProduct(uint256 productId,string memory newName)public {
+        Product storage product=productById[productId];
+        product.name=newName;
+
+        Product memory tempProduct=productById[productId];
+        tempProduct.name="I am nothing";
+    }
+}
